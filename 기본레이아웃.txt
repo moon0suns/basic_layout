@@ -1,0 +1,37 @@
+<aos 애니메이션 넣기>
+-https://michalsnik.github.io/aos/
+
+-css js에서 폴더에 넣기
+ <script>
+            AOS.init();
+        </script>
+ex)
+figure data-aos="fade-up" data-aos="fade-up" 
+figure data-aos="fade-up" data-aos-delay="500"
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+-section 타이틀은 h2씀 
+-main_event sec 이름두개 지어주기! main_event section X
+-inner(와) content 
+-요소요소와 마진/가장마지막 요소(박스) 마진안줌
+마진의방향은 아래쪽으로 줌 (헷갈리기때문)
+위쪽으로 주면 마진이 겹치는거 염두
+
+섹션끼리 패딩
+-figcaption = 피규어에 대한 설명 같이 div,박스도 씀
+-ul>li>strong span 이름 지어주기 귀찮을때 많이 줌
+
+-/ 루트로가라
+-alt="" 알트태그는 채워주는게 좋다. 포폴만들떄 /보통 회사이름쓰거나 키워드, 이미지검색에서 회사이름 뜸
+
+-&amp 특수문자 &nbsp공간주기 &copy
+가장바깥쪽은 디테일하게 안에는 간단히 해도 됨 but전역적으로 쓸꺼 구분잘해서
+
+-h2에는 br쓰지않고 span으로 css display-bolck 만들어줌 
+
+img / button -> inline-block성질 가짐 / inline 4px공간생김/ block 박스라서 아래로떨어짐
+
+positon으로 떠오르면 strong 이나 span 먹는다. 블록성질으로 바껴서
+
+ li:not(:last-child)::after 마지막요소에 빼주는거
